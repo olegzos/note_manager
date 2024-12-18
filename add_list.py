@@ -6,7 +6,7 @@ title2 = input('Введите заголовок заметки 2: ')
 print('Заметка2: ', title2)
 title3 = input('Введите заголовок заметки 3: ')
 print('Заметка3: ', title3)
-title = (title1, title2, title3)
+title = [title1, title2, title3]
 content = input('Введите описание заметки: ') #описание заметки
 print('Описание: ', content)
 status = input('Статус заметки: ') #статус заметки
