@@ -6,7 +6,7 @@ title2 = input('Введите заголовок заметки 2: ')
 print('Заметка2: ', title2)
 title3 = input('Введите заголовок заметки 3: ')
 print('Заметка3: ', title3)
-title = (title1, title2, title3)
+title = [title1, title2, title3]
 content = input('Введите описание заметки: ') #описание заметки
 print('Описание: ', content)
 status = input('Статус заметки: ') #статус заметки
@@ -15,5 +15,6 @@ created_date = input('Введите дату создания заметки в
 print('Дата создания заметки: ',created_date [:6])
 issue_date = input('Введите дату истечения заметки в формате DD.MM.YYYY: ') #дата истечения заметки
 print('Дата истечения заметки: ',issue_date [:6])
-note =  [username, title, content, status, created_date, issue_date] # вложенный список для заголовков
+note =  [username, content, status, created_date, issue_date] # вложенный список для заголовков
 print('Собранная информация о заметке: ', note)
+print('Список заголовков: ', title)
