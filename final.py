@@ -14,5 +14,5 @@ created_date = input('Введите дату создания заметки в
 print('Дата создания заметки: ',created_date [:6])
 issue_date = input('Введите дату истечения заметки в формате DD.MM.YYYY: ') #дата истечения заметки
 print('Дата истечения заметки: ',issue_date [:6])
-note =  [username, title1 , title2 , title3 , content, status, created_date, issue_date] # вложенный список для заголовков
+note =  [username, title1, title2, title3, content, status, created_date, issue_date] # вложенный список для заголовков
 print('Собранная информация о заметке: ', note)
