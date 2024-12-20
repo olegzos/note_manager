@@ -15,9 +15,9 @@ created_date = input('Введите дату создания заметки в
 print('Дата создания заметки: ', created_date[:6])
 issue_date = input('Введите дату истечения заметки в формате DD.MM.YYYY: ')  # дата истечения заметки
 print('Дата истечения заметки: ', issue_date[:6])
-note = [username, content, status, created_date, issue_date]  # вложенный список
+note = [username, content, status, created_date, issue_date]  # Cписок
 print('Собранная информация о заметке: ', note)
 print('Список заголовков: ', title)
 my_dict = {'Имя': username, 'Список заголовков': title, 'Описание': content, 'Статус': status,
-        'Дата создания': created_date, 'Дата истечения': issue_date}  # вложенный словарь
+        'Дата создания': created_date, 'Дата истечения': issue_date}  # Cловарь
 print('Словарь: ', my_dict)
